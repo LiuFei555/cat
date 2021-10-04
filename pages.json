@@ -1,0 +1,69 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "小猫社区"
+			}
+		},
+		{
+			"path":"pages/message/message",
+			"style":{
+				"navigationBarTitleText": "小猫社区"
+			}
+		},
+		{
+			"path":"pages/message/personal",
+			"style":{
+				"navigationBarTitleText": "小猫社区"
+			}
+		}
+	],
+	"globalStyle": {
+		// 设置导航栏文字颜色
+		"navigationBarTextStyle": "black",
+		//设置导航栏显示的文字（局部配置会覆盖全局配置）
+		//"navigationBarTitleText": "uni-app",
+		//设置导航栏背景颜色
+		"navigationBarBackgroundColor": "#F8F8F8",
+		//设置背景颜色
+		"backgroundColor": "#F8F8F8",
+		//设置页面可下拉
+		"enablePullDownRefresh":true,
+		//设置下拉loading样式（light/dark）
+		"backgroundTextStyle":"dark"
+	},
+	"tabBar":{
+		// 设置tab上未选中的文字颜色
+		// "color":"" 
+		// 设置tab上选中的文字颜色
+		// "selectedColor":""
+		// 设置tab的背景颜色
+		// "backgroundColor":""
+		// 设置tabBar上边框的颜色值，仅支持black/white
+		// "border":"black"
+		// 设置顶部tab ,top仅支持小程序
+		// "position":"bottom"
+		"list":[
+			{
+				"text":"首页",
+				"pagePath":"pages/index/index",
+				"iconPath":"static/tabbar/home.png",
+				"selectedIconPath":"static/tabbar/home1_selected.png"
+			},
+			{
+				"text":"消息",
+				"pagePath":"pages/message/message",
+				"iconPath":"static/tabbar/message.png",
+				"selectedIconPath":"static/tabbar/message_selected.png"
+			},
+			{
+				"text":"个人",
+				"pagePath":"pages/message/personal",
+				"iconPath":"static/tabbar/personal1.png",
+				"selectedIconPath":"static/tabbar/personal_1.png"
+			}
+		]
+	}
+	
+}

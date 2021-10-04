@@ -1,0 +1,38 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/message/message",
+    "pages/message/personal"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8",
+    "enablePullDownRefresh": true,
+    "backgroundTextStyle": "dark"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "text": "首页",
+        "pagePath": "pages/index/index",
+        "iconPath": "static/tabbar/home.png",
+        "selectedIconPath": "static/tabbar/home1_selected.png"
+      },
+      {
+        "text": "消息",
+        "pagePath": "pages/message/message",
+        "iconPath": "static/tabbar/message.png",
+        "selectedIconPath": "static/tabbar/message_selected.png"
+      },
+      {
+        "text": "个人",
+        "pagePath": "pages/message/personal",
+        "iconPath": "static/tabbar/personal1.png",
+        "selectedIconPath": "static/tabbar/personal_1.png"
+      }
+    ]
+  },
+  "usingComponents": {}
+}
