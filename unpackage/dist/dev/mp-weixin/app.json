@@ -1,14 +1,23 @@
 {
   "pages": [
+    "pages/login/login",
     "pages/index/index",
     "pages/message/message",
-    "pages/message/personal"
+    "pages/personal/personal",
+    "pages/focus/focus",
+    "pages/popular/popular",
+    "pages/adopt/adopt",
+    "pages/useTrems/Trems",
+    "pages/policy/policy",
+    "pages/like/like",
+    "pages/myfocus/myfocus",
+    "pages/myfans/myfans"
   ],
   "subPackages": [],
   "window": {
     "navigationBarTextStyle": "black",
-    "navigationBarBackgroundColor": "#F8F8F8",
-    "backgroundColor": "#F8F8F8",
+    "navigationBarBackgroundColor": "#FFFFFF",
+    "backgroundColor": "#FFFFFF",
     "enablePullDownRefresh": true,
     "backgroundTextStyle": "dark"
   },
@@ -28,7 +37,7 @@
       },
       {
         "text": "个人",
-        "pagePath": "pages/message/personal",
+        "pagePath": "pages/personal/personal",
         "iconPath": "static/tabbar/personal1.png",
         "selectedIconPath": "static/tabbar/personal_1.png"
       }

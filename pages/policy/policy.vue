@@ -1,6 +1,6 @@
 <template>
 	<view>
-		<h1>个人主页</h1>
+		<text>隐私政策</text>
 	</view>
 </template>
 

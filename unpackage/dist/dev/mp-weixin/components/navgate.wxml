@@ -1,0 +1,1 @@
+<view class="nav"><block wx:for="{{nav}}" wx:for-item="item" wx:for-index="index" wx:key="index"><view data-event-opts="{{[['tap',[['jumpTo',['$0'],[[['nav','',index]]]]]]]}}" class="navText" bindtap="__e">{{item.title+''}}<view class="navLine"></view></view></block></view>

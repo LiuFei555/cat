@@ -1,5 +1,12 @@
 {
 	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+	     {
+	     	"path":"pages/login/login",
+	     	"style":{
+	     		"navigationBarTitleText":"小猫社区"
+	     	}
+	     },
+	     
 		{
 			"path": "pages/index/index",
 			"style": {
@@ -13,21 +20,72 @@
 			}
 		},
 		{
-			"path":"pages/message/personal",
+			"path":"pages/personal/personal",
+			"style":{
+				"navigationStyle":"custom"
+			}
+		},
+		
+		{
+			"path":"pages/focus/focus",
 			"style":{
 				"navigationBarTitleText": "小猫社区"
 			}
-		}
-	],
+		},
+		
+		
+		{
+			"path":"pages/popular/popular",
+			"style":{
+				"navigationBarTitleText": "小猫社区"
+			}
+		},
+		{
+			"path":"pages/adopt/adopt",
+			"style":{
+				"navigationBarTitleText": "小猫社区"
+			}
+		},
+		{
+			"path":"pages/useTrems/Trems",
+			"style":{
+				"navigationBarTitleText": "使用条款"
+			}
+		},
+		{
+			"path":"pages/policy/policy",
+			"style":{
+				"navigationBarTitleText": "隐私政策"
+			}
+		},
+		{
+			"path":"pages/like/like",
+			"style":{
+				"navigationBarTitleText": "我喜欢的"
+			}
+		},
+		{
+			"path":"pages/myfocus/myfocus",
+			"style":{
+				"navigationBarTitleText": "我的关注"
+			}
+		},
+        {
+        	"path":"pages/myfans/myfans",
+        	"style":{
+        		"navigationBarTitleText": "我的粉丝"
+        	}
+        }
+    ],
 	"globalStyle": {
 		// 设置导航栏文字颜色
 		"navigationBarTextStyle": "black",
 		//设置导航栏显示的文字（局部配置会覆盖全局配置）
 		//"navigationBarTitleText": "uni-app",
 		//设置导航栏背景颜色
-		"navigationBarBackgroundColor": "#F8F8F8",
-		//设置背景颜色
-		"backgroundColor": "#F8F8F8",
+		"navigationBarBackgroundColor": "#FFFFFF",
+		//设置下拉背景颜色
+		"backgroundColor": "#FFFFFF",
 		//设置页面可下拉
 		"enablePullDownRefresh":true,
 		//设置下拉loading样式（light/dark）
@@ -59,7 +117,7 @@
 			},
 			{
 				"text":"个人",
-				"pagePath":"pages/message/personal",
+				"pagePath":"pages/personal/personal",
 				"iconPath":"static/tabbar/personal1.png",
 				"selectedIconPath":"static/tabbar/personal_1.png"
 			}
