@@ -8,11 +8,10 @@
 				<view class="num">120</view>
 				<text>关注</text>
 			</view>
-			<view class="fans" @click="toMyFfans">
+			<view class="fans" @click="toMyFans">
 				<view class="num">500</view>
 				<text>粉丝</text>
 			</view>
-			<view class="fans"></view>
 			<view class="username">铲屎大王</view>
 			<view class="mylike" @click="like">
 				<text>我喜欢的</text>
@@ -71,13 +70,13 @@
 			toFocus(){
 				uni.navigateTo({
 					url:'/pages/myfocus/myfocus'
-				}),
-				console.log(123)
+				})
 			},
 			toMyFans(){
 				uni.navigateTo({
 					url:'/pages/myfans/myfans'
-				})
+				}),
+				console.log(123)
 			}
 		},
 		components:{"my-dynamic":dynamic}

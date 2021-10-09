@@ -130,30 +130,63 @@ __webpack_require__.r(__webpack_exports__);
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0;var navgate = function navgate() {__webpack_require__.e(/*! require.ensure | components/navgate */ "components/navgate").then((function () {return resolve(__webpack_require__(/*! ../../components/navgate.vue */ 92));}).bind(null, __webpack_require__)).catch(__webpack_require__.oe);};var dynamic = function dynamic() {__webpack_require__.e(/*! require.ensure | components/dynamic */ "components/dynamic").then((function () {return resolve(__webpack_require__(/*! ../../components/dynamic.vue */ 99));}).bind(null, __webpack_require__)).catch(__webpack_require__.oe);};var _default =
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0; //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+var _default =
 {
   data: function data() {
-    return {};
-
+    return {
+      hello1: 'checked',
+      hello2: '',
+      hello3: '',
+      hello4: '' };
 
   },
-  components: {
-    "nav-gate": navgate,
-    "my-dynamic": dynamic } };exports.default = _default;
+  methods: {
+    check1: function check1() {
+      this.hello1 = 'checked';
+      this.hello2 = '',
+      this.hello3 = '',
+      this.hello4 = '';
+    },
+    check2: function check2() {
+      this.hello2 = 'checked';
+      this.hello1 = '',
+      this.hello3 = '',
+      this.hello4 = '';
+    },
+    check3: function check3() {
+      this.hello3 = 'checked';
+      this.hello2 = '',
+      this.hello1 = '',
+      this.hello4 = '';
+    },
+    check4: function check4() {
+      this.hello4 = 'checked';
+      this.hello2 = '',
+      this.hello3 = '',
+      this.hello1 = '';
+    } },
+
+  components: {} };exports.default = _default;
 
 /***/ }),
 

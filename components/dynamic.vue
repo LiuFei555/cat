@@ -1,5 +1,5 @@
 <template>
-	<view class="dynamic">
+	<view class="dynamic" @click.stop.prevent="todetails">
 		<view class="header">
 			<view class="userid">
 				<view>
@@ -7,7 +7,7 @@
 				</view>
 				<text>铲屎官</text>
 			</view>
-			<my-focu></my-focu>
+			<my-focu @click.native.stop.prevent="ceshi"></my-focu>
 		</view>
 		<view class="contentText">
 			<text>两岁大的猫咪必须要打疫苗吗，不打的话会对猫咪造成什么伤害？</text>
@@ -31,6 +31,16 @@
 		data(){
 			return{
 				
+			}
+		},
+		methods:{
+			todetails(){
+				uni.navigateTo({
+					url:'/pages/dynamicDetails/dynamicDetails'
+				})
+			},
+			ceshi(){
+				console.log(123)
 			}
 		},
 		components:{
@@ -97,6 +107,7 @@
 				}
 			}
 	    }
+		
 		ul{
 			display: flex;
 			justify-content: space-around;

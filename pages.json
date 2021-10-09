@@ -26,26 +26,8 @@
 			}
 		},
 		
-		{
-			"path":"pages/focus/focus",
-			"style":{
-				"navigationBarTitleText": "小猫社区"
-			}
-		},
 		
 		
-		{
-			"path":"pages/popular/popular",
-			"style":{
-				"navigationBarTitleText": "小猫社区"
-			}
-		},
-		{
-			"path":"pages/adopt/adopt",
-			"style":{
-				"navigationBarTitleText": "小猫社区"
-			}
-		},
 		{
 			"path":"pages/useTrems/Trems",
 			"style":{
@@ -75,7 +57,26 @@
         	"style":{
         		"navigationBarTitleText": "我的粉丝"
         	}
-        }
+        },
+		{
+			"path":"pages/dynamicDetails/dynamicDetails",
+			"style":{
+				"navigationBarTitleText": "动态详情",
+				"navigationStyle":"default"
+			}
+		},
+		{
+			"path":"pages/replycount/replycount",
+			"style":{
+				"navigationBarTitleText": "5条回复"
+			}
+		},
+		{
+			"path":"pages/userhome/userhome",
+			"style":{
+				"navigationStyle":"custom"
+			}
+		}
     ],
 	"globalStyle": {
 		// 设置导航栏文字颜色

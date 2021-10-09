@@ -1,11 +1,24 @@
 <template>
-	<view class="focus_on">
+	<view class="focus_on" @click.stop.prevent="ceshi" :ceshi="ceshi()">
 		<image src="../static/icons/guanzhu1.png" mode=""></image>
 		关注
 	</view>
 </template>
 
 <script>
+	export default {
+		data(){
+			return {
+				
+			}
+		},
+		methods:{
+			ceshi(){
+				console.log(123)
+			}
+		}
+	}
+
 </script>
 
 <style lang="scss" scoped>

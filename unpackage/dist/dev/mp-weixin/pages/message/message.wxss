@@ -1,0 +1,116 @@
+@charset "UTF-8";
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+page {
+  background-color: #efefef;
+}
+.dian3 {
+  width: 34rpx;
+  height: 24.24rpx;
+  background-color: #ff6969;
+  border-radius: 12rpx;
+  position: fixed;
+  left: 382rpx;
+  top: 1122.06rpx;
+  z-index: -1;
+}
+.nav {
+  position: relative;
+  height: 80rpx;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-end;
+  border-bottom: 1rpx solid #efefef;
+  background-color: #FFFFFF;
+}
+.nav .dian1, .nav .dian2 {
+  font-family: PingFangSC-Semibold;
+  font-size: 20rpx;
+  color: #FFFFFF;
+  letter-spacing: 0.03rpx;
+  font-weight: 600;
+  position: absolute;
+  background-color: #ff6969;
+  border-radius: 50rpx;
+  line-height: 28rpx;
+  text-align: center;
+}
+.nav .dian1 {
+  top: 4rpx;
+  left: 315rpx;
+  width: 28rpx;
+  height: 28rpx;
+}
+.nav .dian2 {
+  width: 37rpx;
+  height: 28rpx;
+  border-radius: 14rpx;
+  top: 4rpx;
+  right: 218rpx;
+}
+.nav .remind, .nav .letters {
+  text-align: center;
+  font-family: PingFangSC-Medium;
+  font-size: 30rpx;
+  letter-spacing: 0;
+  font-weight: 500;
+}
+.nav .remind view, .nav .letters view {
+  width: 100rpx;
+  height: 6rpx;
+  border-radius: 4rpx;
+  margin-top: 12rpx;
+}
+.nav .remind {
+  margin-right: 80rpx;
+}
+.nav .checked {
+  color: #81D195;
+}
+.nav .checked view {
+  background-color: #81D195;
+}
+.nav .uncheck {
+  color: #3F3F3F;
+}
+.messagespace .nomessage {
+  font-family: PingFangSC-Regular;
+  font-size: 24rpx;
+  color: #666666;
+  letter-spacing: 0.04rpx;
+  text-align: center;
+  font-weight: 400;
+}
+.messagespace .nomessage image {
+  margin-top: 434rpx;
+  margin-left: 300rpx;
+  margin-bottom: 30rpx;
+  width: 150rpx;
+  height: 133rpx;
+  display: block;
+}
+

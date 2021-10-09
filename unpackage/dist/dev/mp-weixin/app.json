@@ -4,14 +4,14 @@
     "pages/index/index",
     "pages/message/message",
     "pages/personal/personal",
-    "pages/focus/focus",
-    "pages/popular/popular",
-    "pages/adopt/adopt",
     "pages/useTrems/Trems",
     "pages/policy/policy",
     "pages/like/like",
     "pages/myfocus/myfocus",
-    "pages/myfans/myfans"
+    "pages/myfans/myfans",
+    "pages/dynamicDetails/dynamicDetails",
+    "pages/replycount/replycount",
+    "pages/userhome/userhome"
   ],
   "subPackages": [],
   "window": {

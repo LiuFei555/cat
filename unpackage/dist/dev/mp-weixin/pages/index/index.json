@@ -1,7 +1,4 @@
 {
   "navigationBarTitleText": "小猫社区",
-  "usingComponents": {
-    "nav-gate": "/components/navgate",
-    "my-dynamic": "/components/dynamic"
-  }
+  "usingComponents": {}
 }

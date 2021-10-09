@@ -1,4 +1,7 @@
 {
   "navigationBarTitleText": "我的粉丝",
-  "usingComponents": {}
+  "usingComponents": {
+    "focus-on": "/components/focuson",
+    "each-eonecrn": "/components/eonecrn"
+  }
 }
