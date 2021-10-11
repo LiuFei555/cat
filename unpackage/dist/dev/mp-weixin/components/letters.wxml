@@ -1,0 +1,1 @@
+<view><block wx:if="{{letters.length===0}}"><view class="empty"><image src="../static/icons/空@3x.png" mode></image>还没有任何私信</view></block><view class="letters"><image src="../static/bg/个人主页bg@2x.png" mode></image><view><view>新奥尼沙拉</view>你发的那个领养小猫，还有其他的照片吗</view></view></view>

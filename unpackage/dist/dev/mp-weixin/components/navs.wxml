@@ -1,0 +1,1 @@
+<view class="navigate data-v-03913d2a"><block wx:for="{{$root.l0}}" wx:for-item="tabs" wx:for-index="index" wx:key="index"><view data-event-opts="{{[['tap',[['selected',[index]]]]]}}" class="{{['data-v-03913d2a',(tabs.m0)?'active':'',(tab.disabled)?'disabled':'']}}" bindtap="__e">{{''+tabs.$orig+''}}<view class="data-v-03913d2a"></view></view></block></view>

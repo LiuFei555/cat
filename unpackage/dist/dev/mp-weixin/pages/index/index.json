@@ -1,4 +1,7 @@
 {
   "navigationBarTitleText": "小猫社区",
-  "usingComponents": {}
+  "usingComponents": {
+    "my-nav": "/components/navs",
+    "my-guanzhu": "/components/guanzhu"
+  }
 }

@@ -11,7 +11,10 @@
     "pages/myfans/myfans",
     "pages/dynamicDetails/dynamicDetails",
     "pages/replycount/replycount",
-    "pages/userhome/userhome"
+    "pages/userhome/userhome",
+    "pages/release/release",
+    "pages/popular/popular",
+    "pages/populardetails/populardetails"
   ],
   "subPackages": [],
   "window": {

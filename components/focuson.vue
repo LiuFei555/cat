@@ -1,5 +1,5 @@
 <template>
-	<view class="focus_on" @click.stop.prevent="ceshi" :ceshi="ceshi()">
+	<view class="focus_on">
 		<image src="../static/icons/guanzhu1.png" mode=""></image>
 		关注
 	</view>

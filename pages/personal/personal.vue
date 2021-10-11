@@ -27,12 +27,15 @@
 		</view>
 		<!-- myDynamic 我的动态 -->
 		<view class="dynamic_box">
+			<view class="del" v-if="status">
+				删除该动态
+			</view>
 			<view class="dynamic_header">
 				<view>
 					<view class="header-image"></view>
 					<text>铲屎的大大</text>
 				</view>
-				<image src="../../static/icons/more.png"mode=""></image>
+				<image src="../../static/icons/more.png"mode="" @click="more"></image>
 			</view>
 			<text>两岁以上的猫咪到底要不要去打疫苗？不打的话对小猫有什么危害</text>
 			<view class="photos">
@@ -46,10 +49,6 @@
 				</ul>
 			</view>
 		</view>
-	    <!-- 使用动态组件 -->
-		<my-dynamic></my-dynamic>
-		<my-dynamic></my-dynamic>
-		<my-dynamic></my-dynamic>
 	</view>
 </template>
 
@@ -58,7 +57,7 @@
 	export default {
 		data(){
 			return{
-				
+				status:false
 			}
 		},
 		methods:{
@@ -75,8 +74,10 @@
 			toMyFans(){
 				uni.navigateTo({
 					url:'/pages/myfans/myfans'
-				}),
-				console.log(123)
+				})
+			},
+			more(){
+				this.status=!this.status
 			}
 		},
 		components:{"my-dynamic":dynamic}
@@ -201,6 +202,23 @@
 		display: flex;
 		flex-direction: column;
 		border-bottom: 1rpx solid #C8C7CC;
+		position: relative;
+		.del{
+			background-color: #FFFFFF;
+			box-shadow:h-shadow v-shadow 10rpx 10rpx #000000;
+			width: 181rpx;
+			height: 70rpx;
+			position: absolute;
+			top: 80rpx;
+			right: 30rpx;
+			font-family: PingFangSC-Medium;
+			font-size: 24rpx;
+			color: #FF5050;
+			letter-spacing: 0.04rpx;
+			font-weight: 500;
+			line-height: 70rpx;
+			text-align: center;
+		}
 		.dynamic_header{
 			display: flex;
 			justify-content: space-between;
@@ -209,7 +227,6 @@
 				display: flex;
 				align-items: center;
 				.header-image{
-					display: inline-block;
 					background: #007AFF;
 					width: 60rpx;
 					height: 60rpx;
@@ -277,6 +294,7 @@
 					}
 				}
 			}
+			
 		}
 	}
 </style>

@@ -24,24 +24,21 @@
 /* 垂直间距 */
 /* 透明度 */
 /* 文章场景相关 */
-page {
-  background-color: #FFFFFF;
-}
-.navigate {
+.navigate.data-v-03913d2a {
   height: 90rpx;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   padding-left: 99rpx;
   padding-right: 99rpx;
   align-items: flex-end;
 }
-.navigate .checked {
+.navigate .active.data-v-03913d2a {
   color: #81D195;
 }
-.navigate .checked view {
+.navigate .active view.data-v-03913d2a {
   background-color: #81D195;
 }
-.navigate view {
+.navigate view.data-v-03913d2a {
   text-align: center;
   font-family: PingFangSC-Medium;
   font-size: 30rpx;
@@ -49,7 +46,7 @@ page {
   letter-spacing: 0;
   font-weight: 500;
 }
-.navigate view view {
+.navigate view view.data-v-03913d2a {
   width: 100rpx;
   height: 6rpx;
   border-radius: 4rpx;

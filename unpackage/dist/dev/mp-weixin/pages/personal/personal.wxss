@@ -137,6 +137,23 @@
   display: flex;
   flex-direction: column;
   border-bottom: 1rpx solid #C8C7CC;
+  position: relative;
+}
+.dynamic_box .del.data-v-3df0de86 {
+  background-color: #FFFFFF;
+  box-shadow: h-shadow v-shadow 10rpx 10rpx #000000;
+  width: 181rpx;
+  height: 70rpx;
+  position: absolute;
+  top: 80rpx;
+  right: 30rpx;
+  font-family: PingFangSC-Medium;
+  font-size: 24rpx;
+  color: #FF5050;
+  letter-spacing: 0.04rpx;
+  font-weight: 500;
+  line-height: 70rpx;
+  text-align: center;
 }
 .dynamic_box .dynamic_header.data-v-3df0de86 {
   display: flex;
@@ -148,7 +165,6 @@
   align-items: center;
 }
 .dynamic_box .dynamic_header view .header-image.data-v-3df0de86 {
-  display: inline-block;
   background: #007AFF;
   width: 60rpx;
   height: 60rpx;

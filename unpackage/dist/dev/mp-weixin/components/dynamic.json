@@ -1,6 +1,6 @@
 {
-  "component": true,
   "usingComponents": {
     "my-focu": "/components/focuson"
-  }
+  },
+  "component": true
 }

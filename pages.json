@@ -76,6 +76,24 @@
 			"style":{
 				"navigationStyle":"custom"
 			}
+		},
+		{
+			"path":"pages/release/release",
+			"style":{
+				"navigationBarTitleText":"小猫社区"
+			}
+		},
+		{
+			"path":"pages/popular/popular",
+			"style":{
+				"navigationBarTitleText":"小猫社区"
+			}
+		},
+		{
+			"path":"pages/populardetails/populardetails",
+			"style":{
+				"navigationBarTitleText":"科普详情"
+			}
 		}
     ],
 	"globalStyle": {

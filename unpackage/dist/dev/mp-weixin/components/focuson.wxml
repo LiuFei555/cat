@@ -1,1 +1,1 @@
-<view class="focus_on data-v-27e089cc" ceshi="{{$root.m0}}" data-event-opts="{{[['tap',[['ceshi',['$event']]]]]}}" catchtap="__e"><image src="../static/icons/guanzhu1.png" mode class="data-v-27e089cc"></image>关注</view>
+<view class="focus_on data-v-27e089cc"><image src="../static/icons/guanzhu1.png" mode class="data-v-27e089cc"></image>关注</view>

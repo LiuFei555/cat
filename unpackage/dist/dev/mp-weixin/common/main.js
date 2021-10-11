@@ -14,7 +14,10 @@ _vue.default.config.productionTip = false;
 
 _App.default.mpType = 'app';
 
-var app = new _vue.default(_objectSpread({},
+var app = new _vue.default(_objectSpread({
+  beforeCreate: function beforeCreate() {
+    _vue.default.prototype.$bus = this;
+  } },
 _App.default));
 
 createApp(app).$mount();

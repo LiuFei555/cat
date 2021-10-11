@@ -14,16 +14,15 @@
 				<view class="dian2">18</view>
 		</view>
 		<view class="messagespace">
-			<view class="nomessage">
-				<image src="../../static/icons/空@3x.png" mode=""></image>
-				还没有任何<text v-if="ischecked">提醒</text>
-				<text v-if="!ischecked">私信</text>
-			</view>
+			<remind v-if="ischecked"></remind>
+			<letters v-if="!ischecked"></letters>
 		</view>
 	</view>
 </template>
 
 <script>
+	import remind from "../../components/remind.vue"
+	import letters from '../../components/letters.vue'
 	export default{
 		data(){
 			return {
@@ -37,6 +36,10 @@
 			changecheck1(){
 				this.ischecked=false
 			}
+		},
+		components:{
+			"remind":remind,
+			"letters":letters
 		}
 	}
 </script>

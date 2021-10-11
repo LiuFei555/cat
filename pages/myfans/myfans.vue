@@ -7,9 +7,9 @@
 				</view>
 				<text>{{item.name}}</text>
 			</view>
-			<view  @click="changeFocus(index)">
-				<each-eonecrn v-if="!item.isEonecrn"></each-eonecrn>
-				<focus-on v-if="item.isEonecrn"></focus-on>
+			<view  @click.stop.prevent="changeFocus(index)">
+				<each-eonecrn v-if="item.isEonecrn"></each-eonecrn>
+				<focus-on v-if="!item.isEonecrn"></focus-on>
 			</view>
 		</view>
 	</view>
@@ -22,19 +22,18 @@
 		data(){
 			return {
 				myFriends:[
-				{id:1,name:'键盘冒奶',isEonecrn:true,headImage:"../../static/tabbar/personal_1.png"},
-				{id:2,name:'来了来了',isEonecrn:true,headImage:"../../static/tabbar/personal_1.png"},
-				{id:3,name:'无敌战士',isEonecrn:true,headImage:"../../static/tabbar/personal_1.png"},
-				{id:4,name:'卡布奇诺',isEonecrn:false,headImage:'../../static/tabbar/personal_1.png'},
-				{id:5,name:'绝念封尘',isEonecrn:false,headImage:'../../static/tabbar/personal_1.png'},
-				{id:6,name:'狂风绝袭',isEonecrn:false,headImage:'../../static/tabbar/personal_1.png'},
+				{id:1,name:'键盘冒奶',"isEonecrn":true ,headImage:"../../static/tabbar/personal_1.png"},
+				{id:2,name:'来了来了',"isEonecrn":true ,headImage:"../../static/tabbar/personal_1.png"},
+				{id:3,name:'无敌战士',"isEonecrn":true ,headImage:"../../static/tabbar/personal_1.png"},
+				{id:4,name:'卡布奇诺',"isEonecrn":false,headImage:'../../static/tabbar/personal_1.png'},
+				{id:5,name:'绝念封尘',"isEonecrn":false,headImage:'../../static/tabbar/personal_1.png'},
+				{id:6,name:'狂风绝袭',"isEonecrn":false,headImage:'../../static/tabbar/personal_1.png'},
 				]
 			}
 		},
 		methods:{
 			changeFocus(index){
-				this.myFriends[index].isEonecrn=!this.myFriends[index].isEonecrn,
-				console.log(123)
+				this.myFriends[index].isEonecrn=!this.myFriends[index].isEonecrn
 			}
 		},
 		components:{
