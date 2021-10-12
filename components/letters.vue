@@ -39,4 +39,7 @@
 			margin-bottom: 30rpx;
 		}
 	}
+	.letter{
+		
+	}
 </style>

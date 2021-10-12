@@ -2,9 +2,6 @@
 	<view>
 		<dynamic></dynamic>
 		<dynamic></dynamic>
-		<dynamic></dynamic>
-		<dynamic></dynamic>
-		<dynamic></dynamic>
 		<image src="../static/icons/fabu1.png"  @click.stop.prevent="torelease"></image>
 	</view>
 </template>

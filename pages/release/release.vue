@@ -1,20 +1,44 @@
 <template>
 	<view class="page">
-		<view class="pic">
+		<view class="pic" @click="uppic">
 			<view>
 			</view>
 			上传猫片
 		</view>
-		<view class="radio">
+		<view class="radio" @click="upvadio">
 			<view>
 			</view>
 			上传视频
 		</view>
-		<view class="quxiao"><image src="../../static/icons/取消叉@2x.png" mode=""></image></view>
+		<view class="quxiao"><image src="../../static/icons/取消叉@2x.png" mode="" @click="back"></image></view>
 	</view>
 </template>
 
 <script>
+	export default{
+		data(){
+			return{
+				
+			}
+		},
+		methods:{
+			back(){
+				uni.navigateBack({
+					delta:1
+				})
+			},
+			uppic(){
+				uni.navigateTo({
+					url:"/pages/uploadpic/uploadpic"
+				})
+			},
+			upvadio(){
+				uni.navigateTo({
+					url:"/pages/upvadio/upvadio"
+				})
+			}
+		}
+	}
 </script>
 
 <style lang="scss">

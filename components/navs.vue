@@ -28,6 +28,7 @@
 					this.mark=index;
 				}
 				this.$emit('changed',tab)
+				console.log(data)
 			},
 			getInitialActiveTab() {
 			    const index = this.tabList.findIndex(tab => tab.active);
@@ -39,6 +40,7 @@
 		    this.activeTabIndex = this.getInitialActiveTab();
 		    this.$root.$on('select-tab', index => this.select(index));
 		},
+		props:['data']
 	}
 </script>
 

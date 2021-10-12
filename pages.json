@@ -80,19 +80,25 @@
 		{
 			"path":"pages/release/release",
 			"style":{
-				"navigationBarTitleText":"小猫社区"
-			}
-		},
-		{
-			"path":"pages/popular/popular",
-			"style":{
-				"navigationBarTitleText":"小猫社区"
+				"navigationStyle":"custom"
 			}
 		},
 		{
 			"path":"pages/populardetails/populardetails",
 			"style":{
 				"navigationBarTitleText":"科普详情"
+			}
+		},
+		{
+			"path":"pages/uploadpic/uploadpic",
+			"style":{
+				"navigationBarTitleText":"发布"
+			}
+		},
+		{
+			"path":"pages/upvadio/upvadio",
+			"style":{
+				"navigationBarTitleText":"发布"
 			}
 		}
     ],
