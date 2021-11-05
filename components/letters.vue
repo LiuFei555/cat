@@ -5,11 +5,6 @@
 			还没有任何私信
 		</view>
 		<view class="letters">
-			<image src="../static/bg/个人主页bg@2x.png" mode=""></image>
-			<view>
-				<view>新奥尼沙拉</view>
-				你发的那个领养小猫，还有其他的照片吗
-			</view>
 		</view>
 	</view>
 </template>

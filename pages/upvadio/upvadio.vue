@@ -2,7 +2,7 @@
 	<view>
 		<view class="title" :class="{'empty':text.length===0,'isempty':text.length!==0}" ># 领养 #</view>
 		<textarea value="" placeholder="分享我的故事" auto-height="true" v-model="text" maxlength="140"
-		placeholder-class="phr"/>
+		placeholder-class="phr" autofocus/>
 		<view class="sucai">
 			<video :src="path" controls poster="path" direction="0" object-fit="cover" v-if="path!=''" >
 			</video>

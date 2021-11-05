@@ -33,6 +33,11 @@
   margin-left: 285rpx;
   margin-bottom: 30rpx;
 }
+.logo image.data-v-b237504c {
+  width: 180rpx;
+  height: 180rpx;
+  border-radius: 39.9rpx;
+}
 .title.data-v-b237504c {
   width: 161rpx;
   height: 56rpx;
